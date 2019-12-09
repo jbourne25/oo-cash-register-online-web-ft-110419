@@ -14,7 +14,10 @@ class CashRegister
     @@total = current_total
   end 
   
-  def self.add_item(title, price, quantity)
+  def add_item(title, price, quantity)
+  end
+  
+  def apply_discount 
   end 
     
   
